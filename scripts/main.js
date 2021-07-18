@@ -3,7 +3,7 @@ let myImage = document.querySelector('img');
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
     if(mySrc === 'images/thanks-see-you-soon-again.png') {
-      myImage.setAttribute('src','images/fuck-you.png');
+      myImage.setAttribute('src','images/spon.gif');
     } else {
       myImage.setAttribute('src','images/thanks-see-you-soon-again.png');
     }
