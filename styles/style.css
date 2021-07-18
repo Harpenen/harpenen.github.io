@@ -41,5 +41,5 @@ img {
 }
 
 li {
-  margin-left: 20px;
+  margin-left: 20px; /* Moves list items to the right by 20 pixels */
 }
