@@ -39,3 +39,19 @@ img {
   display: block; /*  Somehow allows the image to center properly, otherwise I don't how this works */
   margin: 0 auto; /*  Centers the image within my body  */
 }
+
+ul {
+  background: white;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+ol {
+  background: white;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+li {
+  margin-left: 20px;
+}
