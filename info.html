@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+
+    var urls = new Array();
+    urls[0] = "./error/403.html";
+    urls[1] = "./error/406.html";
+    urls[2] = "./error/409.html";
+    urls[3] = "./error/410.html";
+    urls[4] = "./error/417.html";
+    urls[5] = "./error/418.html";
+    urls[6] = "./error/423.html";
+    urls[7] = "./error/425.html";
+    urls[8] = "./error/451.html";
+    urls[9] = "./error/503.html";
+
+    var random = Math.floor(Math.random()*urls.length);
+
+    window.location = urls[random];
+
+    </script>
+
+  </head>
+  <body>
+    <header></header>
+    <main></main>
+    <footer></footer>
+  </body>
+</html>
